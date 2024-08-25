@@ -223,7 +223,7 @@
             number_t slope = (b.y-a.y)/(b.x-a.x);
             number_t y_intercept = a.y-(slope*a.x);
 
-            number_t p=0.25*powl(slope,2), q=(2/3)*slope*y_intercept, r=0.5*powl(y_intercept,2);
+            number_t p=0.25*powl(slope,2), q=(2.0L/3)*slope*y_intercept, r=0.5*powl(y_intercept,2);
 
             number_t final = p*powl(b.x,4)+q*powl(b.x,3)+r*powl(b.x,2);
             number_t initial = p*powl(a.x,4)+q*powl(a.x,3)+r*powl(a.x,2);
@@ -248,7 +248,7 @@
             number_t slope = (b.y-a.y)/(b.x-a.x);
             number_t y_intercept = a.y-(slope*a.x);
 
-            number_t p=0.25*powl(slope,2), q=(2/3)*slope*y_intercept, r=0.5*powl(y_intercept,2);
+            number_t p=0.25*powl(slope,2), q=(2.0L/3)*slope*y_intercept, r=0.5*powl(y_intercept,2);
 
             number_t final = p*powl(b.x,4)+q*powl(b.x,3)+r*powl(b.x,2);
             number_t initial = p*powl(a.x,4)+q*powl(a.x,3)+r*powl(a.x,2);
